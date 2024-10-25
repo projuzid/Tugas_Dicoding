@@ -4,7 +4,7 @@ import streamlit as st
 from babel.numbers import format_currency
 
 
-airqu_df=pd.read_csv('Dashboard/Airquality_Guanyuan_Clean.csv')
+airqu_df=pd.read_csv('Airquality_Guanyuan_Clean.csv')
 
 with st.sidebar:
     col1,col2,col3=st.columns([0.3,3,0.3])
