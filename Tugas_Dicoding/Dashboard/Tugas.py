@@ -252,6 +252,7 @@ st.pyplot(ISPU)
 
 st.subheader("Kategori ISPU setiap Tahun")
 
+
 category=plt.figure(figsize=(8,5))
 sns.barplot(x='year',y='ISPU PM2.5',hue='Kategori',data=Data,palette={'Sedang':'blue','Tidak Sehat':'yellow'})
 plt.xlabel('Tahun')
